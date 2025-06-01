@@ -3,7 +3,7 @@ import {
     createAsyncThunk,
     createEntityAdapter,
   } from '@reduxjs/toolkit'
-  import { client } from '../../api/client'
+  import { client } from '../../../api/client'
   
   const usersAdapter = createEntityAdapter()
   
